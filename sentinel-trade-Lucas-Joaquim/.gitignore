@@ -1,0 +1,89 @@
+# ==============================================================================
+# Python & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Ambientes Virtuais (Virtualenvs)
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.python-version
+
+# ==============================================================================
+# Testes, Cobertura e Qualidade de Código (pytest, mypy, coverage, ruff)
+# ==============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# ==============================================================================
+# Variáveis de Ambiente e Segredos (Crítico para SentinelTrade)
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+*.p12
+
+# ==============================================================================
+# Banco de Dados Local & Logs de Execução
+# ==============================================================================
+*.log
+logs/
+*.sqlite3
+*.db
+
+# ==============================================================================
+# Editores, IDEs e SO
+# ==============================================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
